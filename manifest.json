@@ -1,0 +1,14 @@
+{
+  "name": "PWA Sandbox",
+  "short_name": "PWA Sandbox",
+  "decription": "Sandbox for playing with PWAs",
+  "scope": ".",
+  "icons": [{
+    "src": "logo.png",
+    "sizes": "192x192 512x512"
+  }],
+  "display": "minimal-ui",
+  "start_url": "index.html",
+  "theme_color": "#0f0f0f",
+  "background_color": "#ffffff"
+}
