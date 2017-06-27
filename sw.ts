@@ -1,7 +1,10 @@
 self.addEventListener('install', (event: ExtendableEvent) => {
     event.waitUntil((async () => {
         let cache = await caches.open('sandbox-v1');
-        await cache.addAll(['index.html']);
+        await cache.addAll([
+            'index.html',
+            'in-scope.html',
+        ]);
         console.log('cached everything');
         let keys = await cache.keys();
         for(let key in keys) {
