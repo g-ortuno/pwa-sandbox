@@ -16,11 +16,10 @@ self.addEventListener('install', (event: ExtendableEvent) => {
 self.addEventListener('fetch', (event: FetchEvent) => {
     event.respondWith((async () => {
         try {
-            let response = await caches.match(event.request);
-            return response || fetch(event.request);
+            return await fetch(event.request);
         } catch (error) {
             console.log(error);
-            return caches.match('index.html');
+            return await caches.match(event.request);
         }
     })());
 });
