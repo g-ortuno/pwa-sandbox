@@ -2,7 +2,7 @@
   "name": "PWA Sandbox",
   "short_name": "PWA Sandbox",
   "decription": "Sandbox for playing with PWAs",
-  "scope": ".",
+  "scope": "/pwa-sandbox",
   "icons": [{
     "src": "logo.png",
     "sizes": "192x192 512x512",
