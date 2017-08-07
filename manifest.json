@@ -2,14 +2,14 @@
   "name": "PWA Sandbox",
   "short_name": "PWA Sandbox",
   "decription": "Sandbox for playing with PWAs",
-  "scope": "https://g-ortuno.github.io/pwa-sandbox/",
+  "scope": "/pwa-sandbox/",
   "icons": [{
     "src": "logo.png",
     "sizes": "192x192 512x512",
     "type": "image/png"
   }],
   "display": "standalone",
-  "start_url": "https://g-ortuno.github.io/index.html",
+  "start_url": "/pwa-sandbox/index.html",
   "theme_color": "#0f0f0f",
   "background_color": "#ffffff"
 }
