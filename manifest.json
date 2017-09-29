@@ -10,6 +10,6 @@
   }],
   "display": "standalone",
   "start_url": "/pwa-sandbox/index.html",
-  "theme_color": "#0f0f0f",
+  "theme_color": "rgba(0, 100, 0, 0.3)",
   "background_color": "#ffffff"
 }
