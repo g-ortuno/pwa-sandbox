@@ -8,4 +8,5 @@ function openWindow() {
     t.location.href = 'https://pokedex.org';
 }
 
+console.log('ran');
 document.onactivate = function() { console.log(arguments); }
