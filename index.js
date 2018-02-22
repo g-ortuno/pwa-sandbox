@@ -7,3 +7,5 @@ function openWindow() {
     let t = window.open('https://example.com');
     t.location.href = 'https://pokedex.org';
 }
+
+document.onactivate = function() { console.log(arguments); }
